@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+class student
+{
+	public:
+    void display()
+    {
+    	char name[10];
+    	int Rollno;
+    	char dep[20];
+    	char section;
+    	cout<<"Enter your name: ";
+    	cin>>name;
+    	cout<<"enter your Roll no:";
+    	cin>>Rollno;
+    	cout<<"enter you depaterment:";
+    	cin>>dep;
+    	cout<<"enter your section:";
+    	cin>>section;
+    
+    	
+    	cout<<"name:"<<name<<endl;
+    	cout<<"Rollno:"<<Rollno<<endl;
+    	cout<<"dep:"<<dep<<endl;
+    	cout<<"section:"<<section<<endl;
+	    
+    	
+	
+    }
+    
+};
+  int main()
+{
+	student obj;
+	obj.display();
+	return 0;
+	
+}
